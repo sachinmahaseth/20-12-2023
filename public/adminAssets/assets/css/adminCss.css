@@ -1,0 +1,40 @@
+#dataTable_length {
+  float: left !important;
+}
+
+#dataTable_length select {
+  border: none;
+}
+
+#dataTable_filter {
+  float: right !important;
+}
+
+#dataTable_filter input {
+  border: none !important;
+  border-bottom: 1px solid whitesmoke !important;
+  padding: 8px !important;
+}
+
+#dataTable {
+  margin-top: 30px !important;
+  margin-bottom: 30px !important;
+}
+
+#dataTable_info {
+  float: left !important;
+}
+
+#dataTable_paginate {
+  float: right !important;
+}
+
+#dataTable_paginate .paginate_button {
+  padding: 0 7px !important;
+  cursor: pointer;
+}
+
+#dataTable_paginate .current {
+  color: black !important;
+  font-weight: bold !important;
+}
