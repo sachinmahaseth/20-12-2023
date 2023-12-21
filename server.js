@@ -22,6 +22,8 @@ app.set("trust proxy", true);
 const staticPath = path.join(__dirname, "./public");
 app.use(express.static(staticPath));
 
+app.use('/public', express.static('public'));
+
 
 // render routes
 app.use(mainRoute);

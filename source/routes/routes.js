@@ -82,6 +82,14 @@ route.get("/", async (req, res) => {
         res.status(500).render('error/page500');
     }
 });
+route.get('/about' , (req,res) => {
+    try {
+        res.status(200).render('about');
+    } catch (error) {
+        console.log(error);
+    }
+    
+} )
 
 
 

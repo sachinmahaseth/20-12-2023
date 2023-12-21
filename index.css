@@ -31,6 +31,9 @@
   #view_package {
     margin-bottom: 190px;
   }
+  .footerImg{
+    height: 120px;
+  }
 }
 
 /* OFF CANVAS */
@@ -193,4 +196,43 @@
 .packcard .bottom-section .row .item .regular-text {
   font-size: 14px;
   color: white !important;
+}
+/* book trip section */
+.footer_bg{
+  background-image: url(./public/img/Footer\ Background\ Photo.png);
+}
+/* trip section start */
+.customPack {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px 10px 0 0;
+  border-bottom: 1px solid lightgray;
+}
+/* footer section */
+#footer a{
+  text-decoration: none !important;
+}
+
+
+/* about page  */
+.aboutBg{
+  height: 60vh;
+  width: 100%;
+  background-image: url(/public/img/aboutbg.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+/* contact us page */
+.cInput {
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
 }
